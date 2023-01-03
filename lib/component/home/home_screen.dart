@@ -72,7 +72,6 @@ class HomeScreen extends StatelessWidget {
                                         label: "Update",
                                         color: Colors.blueGrey,
                                         onPressed: () {
-                                          print("++++ ${dataList[index]}");
                                           Navigator.pushNamed(context, '/tambah-aktivitas',
                                           arguments: dataList[index]);
                                         },
